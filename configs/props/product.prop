@@ -27,6 +27,9 @@ bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 
+# BPF
+ro.bpf.kver_override=5.10.199
+
 # Enable FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 
