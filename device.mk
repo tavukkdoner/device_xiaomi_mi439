@@ -224,6 +224,7 @@ PRODUCT_PACKAGES += \
 $(call soong_config_set,livedisplay_sdm,enable_dm,false)
 $(call soong_config_set,livedisplay_sysfs,enable_ab,true)
 $(call soong_config_set,livedisplay_sysfs,enable_ce,true)
+$(call soong_config_set,livedisplay_sysfs,enable_se,true)
 
 # Media
 PRODUCT_COPY_FILES += \
