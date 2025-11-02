@@ -7,9 +7,6 @@
 
 DEVICE_PATH := device/xiaomi/mi439
 
-# ANT
-BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
