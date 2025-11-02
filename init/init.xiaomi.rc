@@ -10,7 +10,7 @@ on post-fs-data
 
 on property:init.svc.vendor.qcamerasvr=running
     exec /bin/sleep 1s
-    restart vendor.camera-provider-2-4
+    restart vendor.camera.provider
 
 # FM
 on property:hw.fm.init=*
